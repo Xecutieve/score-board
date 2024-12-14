@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Score Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="hero">
+        <p id="title">SCORE BOARD</p>
+        <div id="score-board">
+            <div id="home-score">
+                <p>Home</p>
+                <div id="score-bg-home">
+                    <p id="home-scr">0</p>
+                </div>
+                <button class="button-style" onclick="incrementHomeOne()">+ 1</button>
+                <button class="button-style" onclick="incrementHomeTwo()">+ 2</button>
+                <button class="button-style" onclick="incrementHomeThree()">+ 3</button>
+            </div>
+            <div id="guest-score">
+                <p>Guest</p>
+                <div id="score-bg-guest">
+                    <p id="guest-scr">0</p>
+                </div>
+                <button class="button-style" onclick="incrementGuestOne()">+ 1</button>
+                <button class="button-style" onclick="incrementGuestTwo()">+ 2</button>
+                <button class="button-style" onclick="incrementGuestThree()">+ 3</button>
+            </div>
+        </div>
+        <div id="reset">
+            <button id="reset-board" onclick="reset()">Reset Score Board</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

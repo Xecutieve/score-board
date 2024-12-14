@@ -1,0 +1,87 @@
+@font-face {
+    font-family: scoreFont;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: scoreFont;
+    color: black;
+    font-weight: bolder;
+    margin: 0px;
+
+}
+
+#title {
+    font-size: 60px;
+    text-shadow: 5px 5px 5px black;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#score-board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(blueviolet, yellow);
+    border-radius: 10px;
+    margin-top: 0px;
+    width: 500px;
+}
+
+#home-score {
+    margin: 15px 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#guest-score {
+    margin: 15px 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#score-bg-guest {
+    padding: 10px 20px;
+    background: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#score-bg-home {
+    padding: 10px 20px;
+    background: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#reset {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.button-style {
+    border-radius: 5px;
+    background: greenyellow;
+    padding: 5px 10px;
+}
+
+#reset-board {
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: snow;
+}
